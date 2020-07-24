@@ -5,7 +5,17 @@
 <title>Pagina principal</title>
 </head>
 <body>
- <h1>Bienvenidos a Empleos App</h1>
+	
+	<!--
+	Ejemplo de como pasar mensajes de java 
+	<h1 th:text="${message}"></h1>
+	<h2 th:text="${date}"></h2>
+	 -->
+ 	 <h1>Bienvendio </h1>
+ 	 <h2>Oferta de Trabajo</h2>
+ 	 <h3 th:text="'Titulo: ' +${name}"></h3>
+ 	 <h3 th:text="'Fecha de publicacion: '+ ${date}"></h3>
+ 	 <h3 th text="'Salario ofrecido: '+${wage}"></h3>
+ 	 <h3 th:text = "'Vigente: '+ ${upTo}"></h3>
 </body>
-
 </html>
